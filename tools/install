@@ -1,0 +1,44 @@
+#!/bin/sh
+# install puffin where a user-scoped binary belongs.
+#
+# PREFIX defaults to ~/.local; set it for anywhere else:
+#
+#     PREFIX=/usr/local game build install
+#
+# TAGS passes build tags through, so `TAGS=nostarling game build install`
+# installs the build that does not link starling at all.
+#
+# The build happens here rather than in a game step because of the stamp.
+# Go records the revision and the build time in every binary for free, but
+# not the commit's SUBJECT -- that lives in the repository and the installed
+# binary runs from somewhere else. So it is read and passed in. A build with
+# no subject reports itself unstamped, which is honest; a wrong one is not.
+#
+# The subject is quoted INSIDE the ldflags string, because go splits that
+# string on spaces before the linker ever sees it and a subject is several
+# words. The characters that cannot survive the trip through a shell and
+# into a linker flag are removed rather than escaped three times: the first
+# commit subject containing an apostrophe broke the build it was stamped
+# into.
+set -eu
+
+prefix="${PREFIX:-$HOME/.local}"
+bindir="$prefix/bin"
+tags="${TAGS:-}"
+
+subject=$(git log -1 --pretty=%s 2>/dev/null | tr -d "\n'\"\\\\\`" || true)
+
+mkdir -p bin
+go build -trimpath -tags "$tags" \
+	-ldflags "-X 'main.buildSubject=$subject'" \
+	-o bin/puffin ./cmd/puffin
+
+# into a temp name and then moved, so a running puffin is replaced rather
+# than written through, and a failed install never leaves half a binary on
+# somebody's PATH.
+mkdir -p "$bindir"
+install -m 0755 bin/puffin "$bindir/.puffin.new"
+mv "$bindir/.puffin.new" "$bindir/puffin"
+echo "installed $bindir/puffin"
+
+command -v puffin >/dev/null 2>&1 || echo "warning: $bindir is not on PATH"

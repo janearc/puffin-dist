@@ -1,0 +1,16 @@
+sprite stranger
+art
+....KKKKKK....
+..KKKKKKKKKK..
+.KKKWWWWWWKKK.
+.KKWXEEXEEXWK.
+.KKWWWWWWWWKK.
+.KRRWWWWWWKKK.
+..KKKKKKKKKK..
+...KK....KK...
+pose blink
+at 3,3
+WWWWWWWW
+pose mouth1
+at 5,5
+KKKK

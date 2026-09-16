@@ -1,0 +1,133 @@
+# The auklet: puffin's own bird, facing you.
+#
+# A stencil of ROLES, not colours: a colourway binds them when the sprite
+# is drawn, so this art takes any theme there is, including ones written
+# after it. The characters are the eleven-role alphabet; a dot is
+# transparent.
+#
+# The files in this directory are numbered in VIEW order, from profile to
+# head-on, so stepping through them is a pan.
+
+sprite front
+
+art
+.........KKKKKK.........
+......KKKKKKKKKKKK......
+.....KKKKKKKKKKKKKK.....
+....KKKKKKKKKKKKKKKK....
+...KKKKKKKKKKKKKKKKKK...
+..KKKKKKKKKKKKKKKKKKKK..
+.KKKKWKKKKKKKKKKKKWKKKK.
+.KKWWWWWKKKKKKKKWWWWWKK.
+.KWWDDDWWKKKKKKWWDDDWWK.
+KWWWXXXWWBBBBBBWWXXXWWWK
+KWWXEEEXWBBBBBBWXEEEXWWK
+KWWXEEEXWBBBBBWWXEEEXWWK
+KWWWXXXWWWBBBBWWWXXXWWWK
+KWWWWWWWWWYYYYWWWWWWWWWK
+KWWWWWWWWWYYYYWWWWWWWWWK
+.WWWWWWWWWRRRRWWWWWWWWW.
+.WWWWWWWWWRRRRWWWWWWWWW.
+.KWWWWWWWKRRRRKWWWWWWWK.
+..KWWWWWKKRRRRKKWWWWWK..
+...KKWKKKKRRRRKKKKWKK...
+....KKKKKKKRRKKKKKKK....
+.....KKKKKKRRKKKKKK.....
+......KKKKKRRKKKKK......
+......KKKKKRRKKKKK......
+....KKKKKKKKKKKKKKKK....
+...KKKKKKKKKKKKKKKKKK...
+..VVKKKKKKKKKKKKKKKKVV..
+.VVVKKWWWWWWWWWWWWKKVVV.
+.VVVKWWWWWWWWWWWWWWKVVV.
+VVVVWWWWWWWWWWWWWWWWVVVV
+VVVVWWWWWWWWWWWWWWWWVVVV
+VVVWWWWWWWWWWWWWWWWWWVVV
+VVVWWWWWWWWWWWWWWWWWWVVV
+VVVWWWWWWWWWWWWWWWWWWVVV
+VVVWWWWWWWWWWWWWWWWWWVVV
+.VVVWWWWWWWWWWWWWWWWVVV.
+.VVVWWWWWWWWWWWWWWWWVVV.
+..VVKWWWWWWWWWWWWWWKVV..
+...KKKWWWWWWWWWWWWKKK...
+....KKKWWWWWWWWWWKKK....
+......KKKWWWWWWKKK......
+.....OO.KKKKKKKK.OO.....
+..OOOOOOOOO...OOOOOOOOO.
+...OOOOOOO.....OOOOOOO..
+
+pose blink
+at 3,9
+WWWWW
+WWWWW
+DDDDD
+WWWWW
+at 16,9
+WWWWW
+WWWWW
+DDDDD
+WWWWW
+
+pose mouth0
+
+pose mouth1
+at 10,17
+KKKK
+
+pose mouth2
+at 10,17
+KKKK
+KKKK
+
+pose mouth3
+at 10,16
+KKKK
+KKKK
+KKKK
+KKKK
+at 11,24
+RR
+RR
+
+pose angry
+at 3,8
+DDDDD
+at 16,8
+DDDDD
+
+pose sad
+at 3,5
+DDD
+at 18,5
+DDD
+
+pose astronaut
+at -2,-2
+..........XXXXXXXX..........
+........XXXXXXXXXXXX........
+......XXXX........XXXX......
+.....XXX............XXX.....
+....XX................XX....
+...XX..................XX...
+..XX....................XX..
+..XX....................XX..
+.XX......................XX.
+.XX......................XX.
+XX........................XX
+XX........................XX
+XX........................XX
+XX........................XX
+XX........................XX
+XX........................XX
+XX........................XX
+XX........................XX
+.XX......................XX.
+.XX......................XX.
+..XX....................XX..
+..XX....................XX..
+...XX..................XX...
+....XX................XX....
+.....XXX............XXX.....
+......XXXX........XXXX......
+........XXXXXXXXXXXX........
+..........XXXXXXXX..........

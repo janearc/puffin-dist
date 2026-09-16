@@ -1,0 +1,252 @@
+# The gopher, facing you.
+#
+# The Go gopher was designed by Renee French and is licensed under
+# CC BY 4.0. It is a guest here and keeps its own colours; see NOTICE.
+#
+# A stencil of ROLES, not colours: a colourway binds them when the sprite
+# is drawn, so this art takes any theme there is, including ones written
+# after it. The characters are the eleven-role alphabet; a dot is
+# transparent.
+#
+# The files in this directory are numbered in VIEW order, from profile to
+# head-on, so stepping through them is a pan.
+
+sprite front
+
+art
+...............................
+............KKKKKK.............
+..........KKKKKKKKKK...........
+........KKKKKKKKKKKKKK.........
+.......KKKKKKKKKKKKKKKK........
+...KKK.KKKKKKKKKKKKKKKK.KKK....
+..KKKKKKKKKKKKKKKKKKKKKKKKKK...
+..KKKKKKKKKKKKKKKKKKKKKKKKKK...
+.KKDDDKKKKKKKKKKKKKKKKKKDDDKK..
+.KKDDDKKKKKKKKKKKKKKKKKKDDDKK..
+..KKKKWWWWWKKKKKKKKWWWWWKKKK...
+..KKKWWWWWWWKKKKKKWWWWWWWKKK...
+...KKWWWWWWWWKKKKWWWWWWWWKK....
+.....WXXXXWWWWKKWWWWXXXXW......
+.....WXEEXXWWWKKWWWXXEEXW......
+.....WXEEEXWWWKKWWWXEEEXW......
+.....WXEEEXWWWKKWWWXEEEXW......
+.....WXEEXXWWWKKWWWXXEEXW......
+.....WXXXXWWWWKKWWWWXXXXW......
+.....WWWWWWWWKKKKWWWWWWWW......
+.....WWWWWWWKKKKKKWWWWWWW......
+.....KWWWWWKKKDDKKKWWWWWK......
+.....KVKKKKKKDDDDKKKKKKVK......
+.....VVVKKKKKKDDKKKKKKVVV......
+.....VVVKKKKBBBBBBKKKKVVV......
+.....VVVKKKBBBBBBBBKKKVVV......
+.....VVVKKKBBBBBBBBKKKVVV......
+.....VVVVKKBBBBBBBBKKVVVV......
+.....VVVVKKYYYYYYYYYKVVVV......
+.....VVVVKKBBRRBRRBKKVVVV......
+.....VVVVKKKBRRBRRKKKVVVV......
+.....VVVVKKKKRRKRRKKKVVVV......
+.....VVVVKKKKRRKRRKKKVVVV......
+.....VVVKKKKKKKKKKKKKKVVV......
+.....VVVKKKKKKKKKKKKKKVVV......
+.....VVVKKKKKKKKKKKKKKVVV......
+OOOOOVVVKKKKKKKKKKKKKKVVV.OOOOO
+OOOOO.VKKKKKKKKKKKKKKKKV..OOOOO
+OOOOO.KKKKKKKKKKKKKKKKKK..OOOOO
+OOOOO..KKKKKKKKKKKKKKKK...OOOOO
+........KKKKKKKKKKKKKK.........
+.........KKKKKKKKKKKK..........
+............KKKKKK.............
+.......OOOOOOO..OOOOOOO........
+.......OOOOOOO..OOOOOOO........
+.......OOOOOOO..OOOOOOO........
+
+pose blink
+at 6,13
+WWWW.
+WWWWW
+WWWWW
+DDDDD
+WWWWW
+WWWW.
+at 19,13
+.WWWW
+WWWWW
+WWWWW
+DDDDD
+WWWWW
+.WWWW
+
+pose mouth0
+
+pose mouth1
+at 11,28
+KKKKKKKKK
+KKRRKRRKK
+KKRRKRRKK
+KKRRKRRKK
+KKRRKRRKK
+
+pose mouth2
+at 11,28
+KKKKKKKKK
+KKKKKKKKK
+KKRRKRRKK
+KKRRKRRKK
+KKRRKRRKK
+KKRRKRRKK
+
+pose mouth3
+at 11,28
+KKKKKKKKK
+KKKKKKKKK
+KKKKKKKKK
+KKRRKRRKK
+KKRRKRRKK
+KKRRKRRKK
+KKRRKRRKK
+
+pose point-up
+at 26,18
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+
+pose point-down
+at 26,36
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+
+pose point-left
+at 0,28
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+
+pose point-right
+at 26,28
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+
+pose angry
+at 7,8
+DDDDD
+DDDDD
+at 19,8
+DDDDD
+DDDDD
+
+pose sad
+at 7,5
+DDDDD
+at 19,5
+DDDDD
+
+pose wave-up
+at 26,18
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+
+pose wave-tilt
+at 25,18
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+OOOOO
+.OOOOO
+.OOOOO
+.OOOOO
+.OOOOO
+.OOOOO
+.OOOOO
+.OOOOO
+.OOOOO
+.OOOOO
+.OOOOO
+.OOOOO
+.OOOOO
+
+pose astronaut
+at 2,-1
+..........XXXXXX...........
+.......XXXXXXXXXXXX........
+......XXX........XXX.......
+.....XX............XX......
+....XX..............XX.....
+...XX................XX....
+..XX..................XX...
+..XX..................XX...
+..X....................X...
+.XX....................XX..
+.XX....................XX..
+.XX....................XX..
+.XX....................XX..
+.XX....................XX..
+.XX....................XX..
+..X....................X...
+..XX..................XX...
+..XX..................XX...
+...XX................XX....
+....XX..............XX.....
+.....XX............XX......
+......XXX........XXX.......
+.......XXXXXXXXXXXX........
+..........XXXXXX...........
+...........................

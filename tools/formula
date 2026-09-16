@@ -1,0 +1,31 @@
+#!/bin/sh
+# render the homebrew formula for a released tag.
+#
+#     VERSION=v0.2.0 game build formula
+#
+# packaging/homebrew/puffin.rb is the SOURCE and the tap holds a copy. This
+# is the step that keeps the tap from drifting away from the release: the
+# tag and the revision are filled in from the repository rather than typed
+# into two files that then disagree.
+#
+# It refuses a tag that does not exist, because a formula naming a tag
+# nobody can fetch installs nothing and says something else went wrong.
+set -eu
+
+: "${VERSION:?usage: VERSION=v0.2.0 game build formula}"
+
+case "$VERSION" in
+	v[0-9]*.[0-9]*.[0-9]*) ;;
+	*) echo "version must look like v1.2.3" >&2; exit 2 ;;
+esac
+
+revision=$(git rev-parse "$VERSION^{commit}" 2>/dev/null) || {
+	echo "$VERSION is not a tag in this repository" >&2
+	exit 2
+}
+
+mkdir -p bin
+sed -e "s/VERSION_PLACEHOLDER/$VERSION/g" \
+	-e "s/REVISION_PLACEHOLDER/$revision/g" \
+	packaging/homebrew/puffin.rb > bin/puffin.rb
+echo "rendered bin/puffin.rb for $VERSION at $revision"

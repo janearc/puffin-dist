@@ -1,0 +1,22 @@
+# game: this repository
+
+# the project's name, and nothing about anyone's disk. the two remotes
+# it maps to -- the road that takes every commit, and the dist that only
+# game release pushes to -- live in the builder's own config, so a
+# checkout carries no path that is true on one machine.
+name puffin-dist
+
+# the lint is the dotfile's, whole. a repository that describes any lint
+# describes all of it, so describing none here takes width, rows,
+# comments, print, exclaim, shout and the word list as they stand. what
+# the tree still owes against that list is paid before the release, not
+# excused in this file.
+
+# install puts the binary where a user-scoped binary belongs, stamped with
+# the commit's subject, which go does not record on its own. PREFIX and
+# TAGS are read from the environment by the script.
+target install . :: sh tools/install
+
+# formula renders the homebrew formula for a released tag, so the tap and
+# the release cannot drift apart. VERSION names the tag.
+target formula . :: sh tools/formula

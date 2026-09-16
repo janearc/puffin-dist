@@ -1,0 +1,71 @@
+# The gopher, mostly profile, just off it.
+#
+# The Go gopher was designed by Renee French and is licensed under
+# CC BY 4.0. It is a guest here and keeps its own colours; see NOTICE.
+#
+# A stencil of ROLES, not colours: a colourway binds them when the sprite
+# is drawn, so this art takes any theme there is, including ones written
+# after it. The characters are the eleven-role alphabet; a dot is
+# transparent.
+#
+# The files in this directory are numbered in VIEW order, from profile to
+# head-on, so stepping through them is a pan.
+
+sprite turn60
+
+art
+.....................
+........KKK..........
+.....KKKKKKKKK.......
+...KKKKKKKKKKKKK.....
+..KKKKKKKKKKKKKKK....
+..KKKKKKKKKKKKKKK....
+.KKKKKKKKKKKKKKKKK...
+KKKKKDDDKKKKKKDDKKK..
+KKKKKDDDKKKKKKDDKKK..
+KKKKKKKKKKKKWWDDKKK..
+KKKKKKKKKWWWWWWWKKK..
+KKKKKKKKWWWWWWWWWKK..
+KKKKKKKKWWWWWWWWWWK..
+KKKKKKKWWWXXXXXWWWK..
+KKKKKKKWWWXEEEXWWWK..
+KKKKKKKWWWXEEEXXWWK..
+KKKKKKKWWWXEEEXXWWK..
+KKKKKKKWWWXEEEXWWWK..
+KKKKKKKWWWXXXXXWWWK..
+KKKKKKKKWWWWWWWWWWK..
+KKKKKKKKWWWWWWWWWKK..
+KKKKKKKKKWWWWWWWKKK..
+VKKKKKKKKKKKWDDDKVV..
+VVKKKKKKKKKKKDDDKVV..
+VVKKKKKKKKKKKDDDVVV..
+VVKKKKKKKKKKBBBBBVV..
+VVKKKKKKKKKBBBBBBBV..
+VVVKKKKKKKBBBBBBBBB..
+VVVKKKKKKKBBBBBBBBB..
+VVVKKKKKKKYYYYYYYYY..
+VVVKKKKKKKKBRRBRRBV..
+VVVKKKKKKKKKRRBRRVV..
+VVVKKKKKKKKKRRKRRVV..
+VVKKKKKKKKKKRRKRRVV..
+VVKKKKKKKKKKKKKKVVV..
+VVKKKKKKKKKKKKKKVVV..
+VVKKKKKKKKKKKKKKOOOOO
+.KKKKKKKKKKKKKKKOOOOO
+.KKKKKKKKKKKKKKKOOOOO
+..KKKKKKKKKKKKKKOOOOO
+...KKKKKKKKKKKKK.....
+.....KKKKKKKKK.......
+........KKK..........
+OOOOOOO...OOOOOOO....
+OOOOOOO...OOOOOOO....
+OOOOOOO...OOOOOOO....
+
+pose blink
+at 10,13
+WWWWW.
+WWWWW.
+WWWWWW
+DDDDDD
+WWWWW.
+WWWWW.

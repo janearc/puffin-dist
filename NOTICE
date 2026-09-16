@@ -1,0 +1,15 @@
+puffin borrows one piece of art, and it is not covered by LICENSE.txt.
+
+The Go gopher was designed by Renee French and is licensed under CC BY 4.0.
+
+It appears on the splash screen, as one of the characters the corner
+companion can be cycled to, and as the four files under
+
+    cmd/puffin/art/gopher/
+
+each of which carries the same line in its own header, so the attribution
+travels with the art rather than only with the repository.
+
+Everything else drawn here -- the puffin under cmd/puffin/art/auklet/, the
+lamp under cmd/puffin/art/lamp/, and the splash -- was drawn for this and
+is covered by LICENSE.txt.
