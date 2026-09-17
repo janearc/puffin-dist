@@ -23,7 +23,7 @@ require (
 	github.com/clipperhouse/uax29/v2 v2.5.0 // indirect
 	github.com/dlclark/regexp2/v2 v2.2.1 // indirect
 	github.com/erikgeiser/coninput v0.0.0-20211004153227-1c3628e74d0f // indirect
-	github.com/janearc/flipr-dist/clients/go v1.1.1
+	github.com/janearc/flipr-dist/clients/go v1.1.2
 	github.com/janearc/puffin-auklet v0.0.0-20260908082439-cf1698cb2b48
 	github.com/lucasb-eyer/go-colorful v1.3.0 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
